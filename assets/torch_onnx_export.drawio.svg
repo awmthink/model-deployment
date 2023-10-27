@@ -1,0 +1,137 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="621px" height="91px" viewBox="-0.5 -0.5 621 91" content="&lt;mxfile&gt;&lt;diagram id=&quot;vlBca8tyi4l-WOdxYefb&quot; name=&quot;Page-1&quot;&gt;3VjBcpswEP0aHcMAMhiOxibtoUkz40PTowKyUYsRI+QY5+srgTAIcOI0TNL0ZO1qd5He29VuAuByV35hKE9uaIxTYJtxCeAK2LZleo74kZpjrZn7Vq3YMhIro1axJk+48VTaPYlxoRlySlNOcl0Z0SzDEdd0iDF60M02NNW/mqMtHijWEUqH2h8k5kmt9ex5q/+KyTZpvmy5fr2zQ42xukmRoJgeOioYArhklPJ6tSuXOJXgNbjUftdndk8HYzjjlzjM1DH4sbkbjsVVlZjRTPwECd+lQrLEEpeE33fWP8XaNGxHiStJsdkIx0bIODved4Wum5Rbv0pqHOvDyROdvZ5SFXTPImVlq4xAbIuVFTxBK3IS0x0WXxEmDKeIk0c9OlLJsT3ZtfiJhYJwHE5/Ejj/dTTdd0LTUjEeUbpXUTllUWL8ItzgDIkjjsH9DT2I90bDGaVkm4l1JG6KmVA8YsaJKOiF2tiROJYxAoYL8oQeqngStJySjFd3cALgrE4wygC41K6qXhvl3NZ4F2B/HDoV6Mo0oAO92k29jVeKgIvRVdHv5MHb0ONBG3+62RSC3T43pxNeRpc5Ssdrs3/+d+k////S334m/YuIkZx/uvy3zHHwOgVgQ0vPVThJAbijQSctgHN8ZZlxQ/fVENSji9F9FuNYYX1ICMfrHFW5dxCjk07iWeAHKXwW35mpoQAbig7tFGM1uqQzwXjm29MZDtD5fnt7D0IXLDywsEDoAD8EXvDhIDkfiZJzJodEbZUGLnPKZE6D8BoES+B5IPRBEABfLASIIVjMQDiTW/5CAioGba/aCkzgQRDOgT+TcMt5WW+kKuBwgBE4ch3igjP6Gy9pSln7rG9ImvZUlz86Y5zqrE9Aq+X3aLWGtMIxWuEEtHqTtMZLO6Nhmp7eHd0Xp8NKusOMiLtJtt7QM91hz3yvAdwavjJN/ZRt/Xyypum91DNFavfam/W2ntkLM2mXdJ+ZatbVVHND4306nO3fuw/Y/QfDubAPzF7/YAix/aO/BrX91wkM/wA=&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <path d="M 120 30 L 493.63 30" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 498.88 30 L 491.88 33.5 L 493.63 30 L 491.88 26.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 120 50 L 243.63 50" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 248.88 50 L 241.88 53.5 L 243.63 50 L 241.88 46.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 51px; margin-left: 171px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                torch.jit.trace
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="171" y="54" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    torch.jit.trace
+                </text>
+            </switch>
+        </g>
+        <path d="M 120 70 L 243.63 70" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 248.88 70 L 241.88 73.5 L 243.63 70 L 241.88 66.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 71px; margin-left: 171px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                torch.jit.script
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="171" y="74" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    torch.jit.script
+                </text>
+            </switch>
+        </g>
+        <rect x="0" y="10" width="120" height="80" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 50px; margin-left: 1px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                torch.nn.Moudel
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="60" y="54" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    torch.nn.Moudel
+                </text>
+            </switch>
+        </g>
+        <rect x="500" y="10" width="120" height="80" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 50px; margin-left: 501px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                ONNX模型
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="560" y="54" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    ONNX模型
+                </text>
+            </switch>
+        </g>
+        <rect x="150" y="0" width="320" height="30" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 318px; height: 1px; padding-top: 15px; margin-left: 151px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                torch.onnx.export （默认会先调用 torch.jit.trace）
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="310" y="19" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    torch.onnx.export （默认会先调用 torch.jit.trace）
+                </text>
+            </switch>
+        </g>
+        <path d="M 370 60 L 494.59 60" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 499.84 60 L 492.84 63.5 L 494.59 60 L 492.84 56.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 61px; margin-left: 424px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                torch.onxx.export
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="424" y="64" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    torch.onxx.export
+                </text>
+            </switch>
+        </g>
+        <rect x="250" y="40" width="120" height="40" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 60px; margin-left: 251px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                torch.jit.ScriptModule
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="310" y="64" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    torch.jit.ScriptModu...
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Text is not SVG - cannot display
+            </text>
+        </a>
+    </switch>
+</svg>

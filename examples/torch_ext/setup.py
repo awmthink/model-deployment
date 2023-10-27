@@ -1,0 +1,5 @@
+from setuptools import setup
+from torch.utils.cpp_extension import BuildExtension, CUDAExtension, CppExtension
+
+setup(name="lltm", ext_modules=[CUDAExtension("lltm", ["lltm_cuda.cpp", "lltm_cuda_kernel.cu"])],
+      cmdclass={"build_ext": BuildExtension})
