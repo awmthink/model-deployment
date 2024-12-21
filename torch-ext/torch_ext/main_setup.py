@@ -1,16 +1,14 @@
 import math
 import torch
-from torch.utils.cpp_extension import load
 
 # Our module!
-# import lltm_cpp
+import torch_ext
 
-lltm = load(name="lltm", sources=["lltm_cpp.cpp"], verbose=True)
 
 class LLTMFunction(torch.autograd.Function):
     @staticmethod
     def forward(ctx, input, weights, bias, old_h, old_cell):
-        outputs = lltm.forward(input, weights, bias, old_h, old_cell)
+        outputs = torch_ext.forward(input, weights, bias, old_h, old_cell)
         new_h, new_cell = outputs[:2]
         variables = outputs[1:] + [weights]
         ctx.save_for_backward(*variables)
@@ -19,8 +17,9 @@ class LLTMFunction(torch.autograd.Function):
 
     @staticmethod
     def backward(ctx, grad_h, grad_cell):
-        outputs = lltm.backward(
-            grad_h.contiguous(), grad_cell.contiguous(), *ctx.saved_tensors)
+        outputs = torch_ext.backward(
+            grad_h.contiguous(), grad_cell.contiguous(), *ctx.saved_tensors
+        )
         d_old_h, d_input, d_weights, d_bias, d_old_cell = outputs
         return d_input, d_weights, d_bias, d_old_h, d_old_cell
 
@@ -31,7 +30,8 @@ class LLTM(torch.nn.Module):
         self.input_features = input_features
         self.state_size = state_size
         self.weights = torch.nn.Parameter(
-            torch.empty(3 * state_size, input_features + state_size))
+            torch.empty(3 * state_size, input_features + state_size)
+        )
         self.bias = torch.nn.Parameter(torch.empty(3 * state_size))
         self.reset_parameters()
 
@@ -48,7 +48,7 @@ import time
 
 
 assert torch.cuda.is_available()
-cuda_device = torch.device("cuda:0")  # device object representing GPU
+cuda_device = torch.device("cuda")  # device object representing GPU
 
 batch_size = 16
 input_features = 32
@@ -59,7 +59,6 @@ h = torch.randn(batch_size, state_size, device=cuda_device)
 C = torch.randn(batch_size, state_size, device=cuda_device)
 
 rnn = LLTM(input_features, state_size).to(cuda_device)
-
 
 # warmup
 for _ in range(100):
@@ -77,4 +76,4 @@ for _ in range(1000):
     (new_h.sum() + new_C.sum()).backward()
     backward += time.time() - start
 
-print('Forward: {:.3f} s | Backward {:.3f} s'.format(forward, backward))
+print("Forward: {:.3f} s | Backward {:.3f} s".format(forward, backward))

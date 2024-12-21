@@ -1,7 +1,8 @@
 import math
 import torch
-# Our module!
-import lltm
+from torch.utils.cpp_extension import load
+
+lltm = load(name="torch_ext", sources=["lltm_cpp.cpp"], verbose=True)
 
 class LLTMFunction(torch.autograd.Function):
     @staticmethod
@@ -44,7 +45,7 @@ import time
 
 
 assert torch.cuda.is_available()
-cuda_device = torch.device("cuda")  # device object representing GPU
+cuda_device = torch.device("cuda:0")  # device object representing GPU
 
 batch_size = 16
 input_features = 32
@@ -55,6 +56,7 @@ h = torch.randn(batch_size, state_size, device=cuda_device)
 C = torch.randn(batch_size, state_size, device=cuda_device)
 
 rnn = LLTM(input_features, state_size).to(cuda_device)
+
 
 # warmup
 for _ in range(100):

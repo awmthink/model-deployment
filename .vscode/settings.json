@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "*.cu": "cpp",
+        "*.mdx": "markdown",
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "algorithm": "cpp",
@@ -75,6 +76,8 @@
         "streambuf": "cpp",
         "thread": "cpp",
         "cinttypes": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "queue": "cpp",
+        "stack": "cpp"
     }
 }
