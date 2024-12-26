@@ -161,6 +161,8 @@ cython_debug/
 
 # Model deployment
 
-srcnn.pth
-face.png
+*.pth
 outputs
+
+# Triton
+benchmark
