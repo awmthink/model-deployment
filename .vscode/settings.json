@@ -78,6 +78,7 @@
         "cinttypes": "cpp",
         "valarray": "cpp",
         "queue": "cpp",
-        "stack": "cpp"
+        "stack": "cpp",
+        "__config": "cpp"
     }
 }
