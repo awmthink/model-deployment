@@ -23,3 +23,6 @@ clean:
 
 * https://zhuanlan.zhihu.com/p/638820727
 * https://zhuanlan.zhihu.com/p/657632577
+* https://zhuanlan.zhihu.com/p/441146275
+* https://siboehm.com/articles/22/CUDA-MMM
+* https://github.com/wangzyon/NVIDIA_SGEMM_PRACTICE
